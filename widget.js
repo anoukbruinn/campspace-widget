@@ -36,6 +36,8 @@ const addCSS = () => {
         top: 28%;
       }
       
+      }
+      
       .campspace_widget__image img {
         width: auto;
         height: 375px;
@@ -48,12 +50,14 @@ const addCSS = () => {
         flex-direction: column;
         justify-content: space-around;
         max-width: 70%;
-        margin-left: 100px;
+        margin: 0 2rem;
       }
       
       .campspace_widget__info_logo {
         max-width: 100%;
         fill: #00b189;
+        margin-top:30px;
+        margin-bottom:50px;
       }
       
       .campspace_widget__info_title {
@@ -81,6 +85,7 @@ const addCSS = () => {
         justify-content: center;
         padding: 1rem 0;
         border-radius: 1.2rem;
+        margin-top:60px;
       }
     `;
   document.head.appendChild(styleElement);
